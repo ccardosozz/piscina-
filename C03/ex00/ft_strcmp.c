@@ -23,14 +23,15 @@ int	ft_strcmp(char *s1, char *s2)
 	}
 	return (0);
 }
-// #include <stdio.h>
-// #include <string.h>
-// int main()
-// {
-// 	char	s1[13] = "amo o jordan";
-// 	char	s2[13] = "amD o jordan";
 
-// 	printf("minha função: %d\n", ft_strcmp(s1, s2));
-// 	printf("minha função: %d ", strcmp(s1, s2));
+#include <stdio.h>
+#include <string.h>
+ int main()
+ {
+	char	s1[13] = "amo o jordan";
+ char	s2[13] = "amD o jordan";
 
-// }
+printf("minha função: %d\n", ft_strcmp(s1, s2));
+	printf("minha função: %d ", strcmp(s1, s2));
+
+}
